@@ -1,0 +1,34 @@
+# ZitelNotes
+103-[ ](note-23052023-222155)
+[102](102-)[ fdfdfasdf ](note-23052023-222057)
+101-[ dfkdjak ](note-23052023-222004)
+
+
+100-[ tuchtuch ](note-23052023-220744)
+[99](99-)[ bommtchakbombom ](note-23052023-220626)
+ 
+96-[ hmmm un peu de blem ](note-23052023-220041)
+
+98-[ je dois mettre un espace je crois  ](note-23052023-220436)
+
+
+97-[ holala ](note-23052023-220249)
+
+95-[ ca commence a ce dissiner](note-23052023-215836)
+
+94-[ tchupao  ](note-23052023-215723)
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.

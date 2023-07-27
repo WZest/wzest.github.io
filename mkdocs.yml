@@ -1,0 +1,77 @@
+site_name: Wz Notes
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - codehilite:
+      linenums: true
+  - pymdownx.arithmatex
+  - pymdownx.mark
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.keys
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascript/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: red
+  icon:
+    logo: material/language-rust 
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - tags
+    #  - glightbox
+  - search
+nav:
+  - Home: 'index.md'
+  - Exemple: 'example.md'
+  - Notes:
+    - bobo: 'note-16072023-214237.md'
+    - mind map : 'note-13072023-234130.md'
+    - flow chart  : 'note-13072023-233318.md'
+    - hello tags: 'note-13072023-232422.md'
+    - Book  : 'note-13072023-215811.md'
+    - Memory Studies : 'note-13072023-215524.md'
+  - Idea:
+    - Ma premiere notes: 'note-16072023-174140.md'
+    - une Idee en or: 'note-14072023-191429.md'
+  - Week: 
+
+    - week-29: 'week-29072023'
+    - week-28: 'week-28072023'
+

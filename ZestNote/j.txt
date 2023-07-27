@@ -1,0 +1,20 @@
+[
+  {
+  "file_setting":
+  {
+    "dir_name": "wz-notes",
+    "file_name": "note ",
+    "file_extension": ".txt"
+  } 
+},
+
+ {
+  "file_setting":
+  {
+    "wz-wz-notessir_name": "",
+    "file_name": "",
+    "file_extension": ".mm"
+  } 
+}
+]
+
